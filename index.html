@@ -27,11 +27,16 @@
           extend: {
             colors: {
               clifford: "#da373d",
+              btn_bg: "#B68C5A",
+              dark3: "#B68C5A",
+              custom_gradient:
+                "linear-gradient(to bottom, rgba(17, 17, 17, 1), rgba(17, 17, 17, 0))",
             },
           },
         },
       };
     </script>
+    <link rel="stylesheet" href="styles/style.css" />
     <style>
       .font-poppins {
         font-family: "Poppins", sans-serif;
@@ -41,8 +46,115 @@
       }
     </style>
   </head>
-  <body>
-    <header></header>
+  <body class="font-poppins">
+    <header class="mx-52 mt-12">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-[#707070]"
+            >
+              <li><a class="">Home</a></li>
+              <li>
+                <a>Services</a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+              <li>
+                <a>Cases</a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+              <li>
+                <a>Blog</a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+              <li>
+                <a>Contact Us</a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl"
+            ><img class="font-eb-garamond" src="images/logo2.png" alt=""
+          /></a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="">Home </a></li>
+            <li>
+              <details>
+                <summary>Services</summary>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Cases</summary>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Blog</summary>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Contact Us</summary>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </details>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a
+            class="btn bg-btn_bg font-eb-garamond font-semibold text-white text-lg"
+            >Free Consultation</a
+          >
+        </div>
+      </div>
+    </header>
     <main></main>
     <footer></footer>
   </body>
