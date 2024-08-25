@@ -46,7 +46,7 @@
     </style>
   </head>
   <body class="font-poppins">
-    <header class="mx-5 md:mx-10 lg:mx-52 mt-12">
+    <header class="mx-5 md:mx-10 lg:mx-52 mt-12 hidden">
       <div
         class="navbar bg-base-100 flex-col items-start gap-5 md:gap-0 md:flex-row"
       >
@@ -188,7 +188,7 @@
         </div>
       </div>
     </header>
-    <main class="mx-5 md:mx-10 lg:mx-52 mt-12 md:mt-24 mb-24">
+    <main class="mx-5 md:mx-10 lg:mx-52 mt-12 md:mt-24 mb-24 hidden">
       <!-- The lagal area section -->
       <section class="">
         <div class="text-center">
@@ -642,6 +642,48 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer
+      class="footer bg-[#111111] text-base-content px-5 md:px-10 lg:px-52 py-10 space-x-8 text-[#7B7B7B]"
+    >
+      <nav>
+        <img class="footer-title text-[#FFFFFF]" src="images/logo2.png"></img>
+        <a class="link link-hover max-w-60	">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</a>
+        
+      </nav>
+      <nav>
+        <h6 class="footer-title text-[#FFFFFF]">Usefull Link</h6>
+        <a class="link link-hover">Homes</a>
+        <a class="link link-hover">About Us</a>
+        <a class="link link-hover">Cases</a>
+        <a class="link link-hover">Blog</a>
+        <a class="link link-hover">Contact Us</a>
+
+      </nav>
+      <nav>
+        <h6 class="footer-title text-[#FFFFFF]">Contact Now</h6>
+        <a class="link link-hover">555 4th 5t NW, Washington <br>
+        DC 20530, United States</a>
+        <a class="link link-hover">+88 01750 000 000 <br>
+        +88 01750 000 000</a>
+        <a class="link link-hover">info@gmail.com <br>
+        info@gmail.com</a>
+      </nav>
+      <form>
+        <h6 class="footer-title text-[#FFFFFF]">Subscribe</h6>
+        <fieldset class="form-control w-80">
+          <label class="label">
+            <span class="label-text text-[#7B7B7B]">Subscribe for our latest & Articles. We Won’t Give You Spam Mails/span>
+          </label>
+          <div class="join flex">
+            <input
+              type="text"
+              placeholder="Email Address"
+              class="input input-bordered join-item"
+            />
+            <button class="btn btn-primary join-item">Subscribe</button>
+          </div>
+        </fieldset>
+      </form>
+    </footer>
   </body>
 </html>
